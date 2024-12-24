@@ -25,7 +25,7 @@ public class WordCount {
             if (found == null) {
                 wordCount.add(new WordInfo(word, 1));
             } else {
-                found.word += 1;
+                found.count += 1;
             }
         }
     }
